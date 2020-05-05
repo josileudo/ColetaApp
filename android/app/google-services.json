@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "242264846632",
+    "firebase_url": "https://coletaapp-8b42e.firebaseio.com",
+    "project_id": "coletaapp-8b42e",
+    "storage_bucket": "coletaapp-8b42e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242264846632:android:a617760fc226b7ac0da01d",
+        "android_client_info": {
+          "package_name": "com.coletaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242264846632-r4tk78ucda93r302lo9brm7tddpv4las.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOQ3ILPR_qmg497aOZJh6r-cyBOgtQ3aY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242264846632-r4tk78ucda93r302lo9brm7tddpv4las.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "242264846632-ohbaq6nkutjnkiar6a0kgrq1m813ti18.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "ColetaApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
