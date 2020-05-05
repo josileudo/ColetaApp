@@ -1,6 +1,8 @@
 import React from 'react';
 import {Text} from 'react-native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+import telSen from '../screens/Sensors';
+import telMap from '../screens/Map';
 
 const Tab = createBottomTabNavigator();
 
@@ -10,15 +12,10 @@ function WildCard({title}) {
 
 export default function DashboardRoutes() {
   return (
-    <Tab.Navigator>
-      <Tab.Screen
-        name="Sensores"
-        component={() => <WildCard title="Tela sensores" />}
-      />
-      <Tab.Screen
-        name="Mapa"
-        component={() => <WildCard title="Tela mapa" />}
-      />
+    <Tab.Navigator
+      tabBarOptions={{activeTintColor: '#', inactiveTintColor, colo}}>
+      <Tab.Screen name="Sensores" component={telSen} />
+      <Tab.Screen name="Mapa" component={telMap} />
     </Tab.Navigator>
   );
 }
