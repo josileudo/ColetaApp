@@ -1,4 +1,4 @@
-import firebase from 'firebase';
+import * as firebase from 'firebase';
 
 const prodConfig = {
   apiKey: 'AIzaSyAl335-Td6JxgxkJdJJ9O5Y08nfy27ovFU',
@@ -21,10 +21,14 @@ const devConfig = {
   measurementId: 'G-ZD8YK2R8LV',
 };
 
-const config = process.env.NODE_ENV === 'produto' ? prodConfig : devConfig;
+//const config = process.env.NODE_ENV === 'produto' ? prodConfig : devConfig;
 
-export const firebaseImpl = firebase.initializeApp(config);
+const app = firebase.initializeApp();
+
+export const db = app.database();
+
+/*export const firebaseImpl = firebase.initializeApp(config);
 export const firebaseDatabase = firebase.database();
 export const firebaseAuth = firebase.auth();
 export const googleProvider = new firebase.auth.GoogleAuthProvider();
-export const facebookProvider = new firebase.auth.facebookAuthProvider();
+export const facebookProvider = new firebase.auth.facebookAuthProvider();*/

@@ -13,7 +13,12 @@ function WildCard({title}) {
 export default function DashboardRoutes() {
   return (
     <Tab.Navigator
-      tabBarOptions={{activeTintColor: '#', inactiveTintColor, colo}}>
+      tabBarOptions={{
+        activeTintColor: '#fff',
+        inactiveTintColor: '#FFF',
+        activeBackgroundColor: '#81BEF7',
+        inactiveBackgroundColor: '#58ACFA',
+      }}>
       <Tab.Screen name="Sensores" component={telSen} />
       <Tab.Screen name="Mapa" component={telMap} />
     </Tab.Navigator>
