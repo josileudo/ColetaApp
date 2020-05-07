@@ -1,12 +1,7 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import senStyle from '../styles/Sensors.Style';
-import database from '@react-native-firebase/database';
 import FirebaseService from '../services/firebaseService';
-import {db} from '../utils/firebase';
-import itemComponent from '../components/itemComponent';
-
-let itemsRef = db.ref('/valores');
 
 export default class telSen extends Component {
   state = {
@@ -14,21 +9,31 @@ export default class telSen extends Component {
   };
 
   componentDidMount() {
-    itemsRef.on('value', (snapshot) => {
-      let data = snapshot.val();
-      let items = Object.values(data);
-      this.setState(items);
-    });
+    FirebaseService.getDataList(
+      'valores',
+      (dataIn) => this.setState({dataList: dataIn}),
+      1,
+    );
   }
 
   render() {
+    const {dataList} = this.state;
     return (
       <View styles={senStyle.container}>
-        {this.state.items.length > 0 ? (
-          <itemComponent items={this.state.items} />
-        ) : (
-          <Text> Não tem nada</Text>
-        )}
+        {dataList &&
+          dataList.map((item, index) => {
+            return (
+              <View key={index}>
+                <View style={{padding: 10}}>
+                  <Text style={{margin: 5}}>
+                    Temperatura = {item.Temperatura}
+                  </Text>
+                  <Text style={{margin: 5}}>Pressao = {item.Pressao}</Text>
+                  <Text style={{margin: 5}}>Altitude = {item.Altitude}</Text>
+                </View>
+              </View>
+            );
+          })}
       </View>
     );
   }
