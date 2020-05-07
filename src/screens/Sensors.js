@@ -1,24 +1,35 @@
 import React, {Component} from 'react';
 import {Text, View} from 'react-native';
 import senStyle from '../styles/Sensors.Style';
+import database from '@react-native-firebase/database';
+import FirebaseService from '../services/firebaseService';
 import {db} from '../utils/firebase';
+import itemComponent from '../components/itemComponent';
 
-class Sensors extends Component {
+let itemsRef = db.ref('/valores');
+
+export default class telSen extends Component {
+  state = {
+    items: [],
+  };
+
   componentDidMount() {
-    db.ref('/valores').on('value', (querySnapshot) => {
-      let data = querySnapshot.val() ? querySnapshot() : {};
-      let items = {...data};
-      this.setState({
-        valores: items,
-      });
+    itemsRef.on('value', (snapshot) => {
+      let data = snapshot.val();
+      let items = Object.values(data);
+      this.setState(items);
     });
   }
-}
 
-export default function telSen() {
-  return (
-    <View style={senStyle.container}>
-      <Text>Tela dos sensores</Text>
-    </View>
-  );
+  render() {
+    return (
+      <View styles={senStyle.container}>
+        {this.state.items.length > 0 ? (
+          <itemComponent items={this.state.items} />
+        ) : (
+          <Text> Não tem nada</Text>
+        )}
+      </View>
+    );
+  }
 }
