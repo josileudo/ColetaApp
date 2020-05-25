@@ -1,6 +1,8 @@
 #import "AppDelegate.h"
 #import <Firebase.h>
 
+#import <GoogleMaps/GoogleMaps.h>
+
 #import <React/RCTBridge.h>
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
@@ -31,7 +33,7 @@ static void InitializeFlipper(UIApplication *application) {
 #if DEBUG
   InitializeFlipper(application);
 #endif
-
+  [GMSServices provideAPIKey:@"AIzaSyD3iKQVJmcj9CDaniYLKDrGTB1SZzAwXbU"]; 
   RCTBridge *bridge = [[RCTBridge alloc] initWithDelegate:self launchOptions:launchOptions];
   RCTRootView *rootView = [[RCTRootView alloc] initWithBridge:bridge
                                                    moduleName:@"ColetaApp"

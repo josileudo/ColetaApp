@@ -12,15 +12,17 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2A58C194455EA313FB53E6A7 /* libPods-ColetaApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05C7CF98385CFEA41DA6A563 /* libPods-ColetaApp-tvOSTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ColetaAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ColetaAppTests.m */; };
+		7AFA2BAE834B3DF1268D3CCB /* libPods-ColetaApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90AB04FD94C36140AF163A95 /* libPods-ColetaApp-tvOSTests.a */; };
 		BBD9AC26122597AA70DD60A7 /* libPods-ColetaApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1193C98C562A8DBFEF7CA0F9 /* libPods-ColetaApp-tvOS.a */; };
 		C06728B144CDB3646F3C95DB /* libPods-ColetaApp-ColetaAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBC8BF1D3402FCC755A3619 /* libPods-ColetaApp-ColetaAppTests.a */; };
 		D2249962245D067100ED7547 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2249961245D067100ED7547 /* GoogleService-Info.plist */; };
-		F7F2A0B3884B2D31DC6905B2 /* libPods-ColetaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7A0B227DA1A504A2C53589 /* libPods-ColetaApp.a */; };
+		D281D4DA2470698D00A07B0D /* libYogaKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D281D4D92470698D00A07B0D /* libYogaKit.a */; };
+		D281D4DC24706A4500A07B0D /* libreact-native-maps.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D281D4DB24706A4500A07B0D /* libreact-native-maps.a */; };
+		F7F2A0B3884B2D31DC6905B2 /* libPods-ColetaApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B7A0B227DA1A504A2C53589 /* libPods-ColetaApp.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,9 +47,6 @@
 		00E356EE1AD99517003FC87E /* ColetaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColetaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* ColetaAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColetaAppTests.m; sourceTree = "<group>"; };
-		022360AFF96744842C6660C9 /* Pods-ColetaApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOSTests/Pods-ColetaApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		05C7CF98385CFEA41DA6A563 /* libPods-ColetaApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColetaApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0E9ECA1B67A4DDBCB1D4CEA8 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOSTests/Pods-ColetaApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1193C98C562A8DBFEF7CA0F9 /* libPods-ColetaApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColetaApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* ColetaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColetaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ColetaApp/AppDelegate.h; sourceTree = "<group>"; };
@@ -62,10 +61,15 @@
 		3B7A0B227DA1A504A2C53589 /* libPods-ColetaApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColetaApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61C8EE1326860242DAFA2BDA /* Pods-ColetaApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOS/Pods-ColetaApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		8FA0B113BA808570F7E186C5 /* Pods-ColetaApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp.debug.xcconfig"; path = "Target Support Files/Pods-ColetaApp/Pods-ColetaApp.debug.xcconfig"; sourceTree = "<group>"; };
+		90AB04FD94C36140AF163A95 /* libPods-ColetaApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ColetaApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98E468035F40C1D6891FB248 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOSTests/Pods-ColetaApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A17388DBC5AF9895CAF9878 /* Pods-ColetaApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOSTests/Pods-ColetaApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9DD70397DFB1F89E99B1BEEB /* Pods-ColetaApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp.release.xcconfig"; path = "Target Support Files/Pods-ColetaApp/Pods-ColetaApp.release.xcconfig"; sourceTree = "<group>"; };
 		A267E99FAEA93338DE4EBA3D /* Pods-ColetaApp-ColetaAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-ColetaAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ColetaApp-ColetaAppTests/Pods-ColetaApp-ColetaAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4809FB213D795C861209562 /* Pods-ColetaApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-ColetaApp-tvOS/Pods-ColetaApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		D2249961245D067100ED7547 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D281D4D92470698D00A07B0D /* libYogaKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libYogaKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D281D4DB24706A4500A07B0D /* libreact-native-maps.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libreact-native-maps.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDE82CCA78C2471D7EA8C803 /* Pods-ColetaApp-ColetaAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColetaApp-ColetaAppTests.release.xcconfig"; path = "Target Support Files/Pods-ColetaApp-ColetaAppTests/Pods-ColetaApp-ColetaAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -84,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D281D4DC24706A4500A07B0D /* libreact-native-maps.a in Frameworks */,
+				D281D4DA2470698D00A07B0D /* libYogaKit.a in Frameworks */,
 				F7F2A0B3884B2D31DC6905B2 /* libPods-ColetaApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A58C194455EA313FB53E6A7 /* libPods-ColetaApp-tvOSTests.a in Frameworks */,
+				7AFA2BAE834B3DF1268D3CCB /* libPods-ColetaApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,12 +148,14 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D281D4DB24706A4500A07B0D /* libreact-native-maps.a */,
+				D281D4D92470698D00A07B0D /* libYogaKit.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				3B7A0B227DA1A504A2C53589 /* libPods-ColetaApp.a */,
 				2BBC8BF1D3402FCC755A3619 /* libPods-ColetaApp-ColetaAppTests.a */,
 				1193C98C562A8DBFEF7CA0F9 /* libPods-ColetaApp-tvOS.a */,
-				05C7CF98385CFEA41DA6A563 /* libPods-ColetaApp-tvOSTests.a */,
+				90AB04FD94C36140AF163A95 /* libPods-ColetaApp-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -194,8 +202,8 @@
 				DDE82CCA78C2471D7EA8C803 /* Pods-ColetaApp-ColetaAppTests.release.xcconfig */,
 				61C8EE1326860242DAFA2BDA /* Pods-ColetaApp-tvOS.debug.xcconfig */,
 				C4809FB213D795C861209562 /* Pods-ColetaApp-tvOS.release.xcconfig */,
-				0E9ECA1B67A4DDBCB1D4CEA8 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */,
-				022360AFF96744842C6660C9 /* Pods-ColetaApp-tvOSTests.release.xcconfig */,
+				98E468035F40C1D6891FB248 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */,
+				9A17388DBC5AF9895CAF9878 /* Pods-ColetaApp-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -267,7 +275,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "ColetaApp-tvOSTests" */;
 			buildPhases = (
-				242BF5904A384B5639B0CD7C /* [CP] Check Pods Manifest.lock */,
+				6A5F24223544535BC03CCCF4 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -288,13 +296,14 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1140;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = ZJ24JA23A8;
 						LastSwiftMigration = 1120;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
@@ -401,28 +410,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		242BF5904A384B5639B0CD7C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ColetaApp-tvOSTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -453,6 +440,28 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ColetaApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A5F24223544535BC03CCCF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ColetaApp-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -598,6 +607,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A267E99FAEA93338DE4EBA3D /* Pods-ColetaApp-ColetaAppTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -621,6 +631,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DDE82CCA78C2471D7EA8C803 /* Pods-ColetaApp-ColetaAppTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = ColetaAppTests/Info.plist;
@@ -644,12 +655,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJ24JA23A8;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = ColetaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -671,7 +684,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZJ24JA23A8;
 				INFOPLIST_FILE = ColetaApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -743,7 +758,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0E9ECA1B67A4DDBCB1D4CEA8 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 98E468035F40C1D6891FB248 /* Pods-ColetaApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -770,7 +785,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 022360AFF96744842C6660C9 /* Pods-ColetaApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 9A17388DBC5AF9895CAF9878 /* Pods-ColetaApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
